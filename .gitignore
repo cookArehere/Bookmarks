@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# IDE/Text Editor specific files
+.vscode/
+.idea/
+
+# Virtual environment
+venv/
+.env/
+
+# Database
+*.db
+*.sqlite3
+
+# Static and Media files (если вы используете стандартную конфигурацию)
+
+/media/
+
+# Secret key (для безопасности не добавляйте секретный ключ в систему контроля версий)
+*.secret
+
+# Кэш
+__pycache__/
+*.pyc
+
+# Миграции
+**/migrations/
+
+# Зависимости
+lib/
+lib64/
+
+.env
